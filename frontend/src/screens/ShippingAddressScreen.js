@@ -19,7 +19,7 @@ export default function ShippingAddressScreen() {
   const [city, setCity] = useState(shippingAddress.city || '');
   const [postalCode, setPostalCode] = useState(
     shippingAddress.postalCode || ''
-  );
+  );/*hi user*/
   useEffect(() => {
     if (!userInfo) {
       navigate('/signin?redirect=/shipping');

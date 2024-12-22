@@ -4,7 +4,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
 import Navbar from 'react-bootstrap/Navbar';
-import Badge from 'react-bootstrap/Badge';
+import Badge from 'react-bootstrap/Badge';/*hi user*/
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';

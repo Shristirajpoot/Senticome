@@ -19,7 +19,7 @@ export default function SignupScreen() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
-
+/*hi user*/
   const { state, dispatch: ctxDispatch } = useContext(Store);
   const { userInfo } = state;
   const submitHandler = async (e) => {

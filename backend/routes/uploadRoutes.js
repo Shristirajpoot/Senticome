@@ -9,7 +9,7 @@ const upload = multer();
 const uploadRouter = express.Router();
 
 uploadRouter.post(
-  '/',
+  '/',/*hi user*/
   isAuth,
   isAdmin,
   upload.single('file'),

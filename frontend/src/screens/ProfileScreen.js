@@ -20,7 +20,7 @@ const reducer = (state, action) => {
       return state;
   }
 };
-
+/*hi user*/
 export default function ProfileScreen() {
   const { state, dispatch: ctxDispatch } = useContext(Store);
   const { userInfo } = state;

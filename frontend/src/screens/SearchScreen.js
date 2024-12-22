@@ -12,7 +12,7 @@ import MessageBox from '../components/MessageBox';
 import Button from 'react-bootstrap/Button';
 import Product from '../components/Product';
 import LinkContainer from 'react-router-bootstrap/LinkContainer';
-
+/*hi user*/
 const reducer = (state, action) => {
   switch (action.type) {
     case 'FETCH_REQUEST':

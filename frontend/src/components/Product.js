@@ -13,7 +13,7 @@ function Product(props) {
   const {
     cart: { cartItems },
   } = state;
-
+/*hi user*/
   const addToCartHandler = async (item) => {
     const existItem = cartItems.find((x) => x._id === product._id);
     const quantity = existItem ? existItem.quantity + 1 : 1;

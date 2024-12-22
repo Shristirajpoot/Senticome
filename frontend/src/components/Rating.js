@@ -12,7 +12,7 @@ function Rating(props) {
               : 'far fa-star'
           }
         />
-      </span>
+      </span>/*hi user*/
       <span>
         <i
           className={

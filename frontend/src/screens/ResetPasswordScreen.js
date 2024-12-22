@@ -18,7 +18,7 @@ export default function ResetPasswordScreen() {
 
   const { state } = useContext(Store);
   const { userInfo } = state;
-
+/*hi user*/
   useEffect(() => {
     if (userInfo || !token) {
       navigate('/');

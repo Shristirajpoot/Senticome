@@ -6,7 +6,7 @@ import Product from '../models/productModel.js';
 import { isAuth, isAdmin, mailgun, payOrderEmailTemplate } from '../utils.js';
 
 const orderRouter = express.Router();
-
+/*hi user*/
 orderRouter.get(
   '/',
   isAuth,

@@ -8,7 +8,7 @@ import { isAuth, isAdmin, generateToken, baseUrl, mailgun } from '../utils.js';
 const userRouter = express.Router();
 
 userRouter.get(
-  '/',
+  '/',/*hi user*/
   isAuth,
   isAdmin,
   expressAsyncHandler(async (req, res) => {

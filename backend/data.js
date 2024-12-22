@@ -7,7 +7,7 @@ const data = {
       email: 'samimaniyar2003@gmail.com',
       password: bcrypt.hashSync('123456'),
       isAdmin: true,
-    },
+    },/*hi user*/
     {
       name: 'Kusum',
       email: 'kusum2003k@gmail.com',

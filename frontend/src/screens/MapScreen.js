@@ -10,7 +10,7 @@ import { useNavigate } from 'react-router-dom';
 import { Store } from '../Store';
 import Button from 'react-bootstrap/Button';
 import { toast } from 'react-toastify';
-
+/*hi user*/
 const defaultLocation = { lat: 45.516, lng: -73.56 };
 const libs = ['places'];
 

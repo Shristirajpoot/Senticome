@@ -11,7 +11,7 @@ export default function SearchBox() {
   const submitHandler = (e) => {
     e.preventDefault();
     navigate(query ? `/search/?query=${query}` : '/search');
-  };
+  };/*hi user*/
 
   return (
     <Form className="d-flex me-auto" onSubmit={submitHandler}>
